@@ -12,8 +12,7 @@ async function verifyGSTIN(GSTIN, next) {
         }
     } catch (err) {
         console.log(err);
-        const error = new httpError('invalid GSTIN', 500);
-        return next(error);
+        throw new httpError('Invalid GSTIN, please try again', 401);
     }
     return tradeName;
 }

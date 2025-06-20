@@ -12,7 +12,11 @@ const signup = async (req, res, next) => {
     const { name, email, GSTIN, password } = req.body;
     console.log('signup for', email);
     requestValidation(req, next);
-    verifyGSTIN(GSTIN, next);
+    const tradeName = await verifyGSTIN(GSTIN, next);
+    if (!tradeName) {
+        const error = new httpError('Invalid GSTIN, please try again', 401);
+        return next(error);
+    }
     const errorMessage = 'Could not create user, something went wrong';
     const normalizedEmail = email.toLowerCase().trim();
     const existingUsers = await validateUser(normalizedEmail, next, errorMessage);

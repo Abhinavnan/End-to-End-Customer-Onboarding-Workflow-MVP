@@ -11,6 +11,9 @@ const gstin = async (req, res, next) => {
     console.log('fetching trade name for GSTIN:', GSTIN);
     requestValidation(req, next);
     const tradeName = await verifyGSTIN(GSTIN, next);
+    if (!tradeName) {
+        return next(new httpError('Invalid GSTIN, please try again', 401));
+    }
     res.status(200).json({ tradeName });
 };
 

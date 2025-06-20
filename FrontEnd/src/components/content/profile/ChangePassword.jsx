@@ -13,6 +13,8 @@ const ChangePassword = () => {
                        inputError.oldPassword || inputError.newPassword || inputError.confirmPassword;
     const [passwordChanged, setPasswordChanged] = useState(false);
 
+    const samePassword = formData.newPassword === formData.oldPassword;
+
     const handleChange = (event) => {
         const { name, value } = event.target;
         setFormData((prevData) => ({ ...prevData, [name]: value }));
@@ -47,7 +49,8 @@ const ChangePassword = () => {
                 helperText={inputError.oldPassword ? 'Invalid password' : ''}  />
             <TextField label="New Password" variant="outlined"  type="password" name="newPassword" value={formData.newPassword}
                 onChange={handleChange} error={inputError.newPassword} 
-                helperText={inputError.newPassword ? 'Password should be at least 6 characters long' : ''}  />
+                helperText={inputError.newPassword ? 'Password should be at least 6 characters long' : 
+                    samePassword ? 'Password same as old password' : ''}  />
             <TextField label="Confirm Password" variant="outlined"  type="password" name="confirmPassword" value={formData.confirmPassword}
                 onChange={handleChange} error={inputError.confirmPassword} 
                 helperText={inputError.confirmPassword ? 'Password does not match' : ''}  />
