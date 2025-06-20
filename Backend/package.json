@@ -1,0 +1,26 @@
+{
+  "name": "end-to-end-customer-onboarding-workflow-mvp",
+  "version": "1.0.0",
+  "description": "Every customs broker (user) using our product files customs declarations on behalf of the exporters and importers. Brokers should onboard their new customers to file on their behalf. To do so, these brokers must first register, verify identity, and access their dashboard to onboarded their customers (exporters/importers). This is their core onboarding flow.",
+  "license": "ISC",
+  "author": "ABHINAV U V",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.0",
+    "uuid": "^11.1.0"
+  }
+}

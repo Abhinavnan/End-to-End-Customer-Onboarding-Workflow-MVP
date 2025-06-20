@@ -1,0 +1,132 @@
+[
+  {
+    "productName": "Bluetooth Wireless Earbuds",
+    "modelNumber": "SF-X-001",
+    "brand": "Aura Audio",
+    "description": "Compact in-ear wireless earbuds featuring Bluetooth 5.2 connectivity, active noise cancellation (ANC), touch controls, IPX4 water resistance, and a portable charging case with USB-C. Designed for audio playback and hands-free calling.",
+    "primaryFunction": "Wireless audio playback and communication",
+    "customerDetails": {
+      "importer": "Global Tech Imports Inc.",
+      "importerAddress": "123 Tech Lane, San Jose, CA, USA",
+      "consignee": "Global Tech Imports Inc.",
+      "notifyParty": "Clearance Customs Brokerage"
+    }
+  },
+  {
+    "productName": "Smart LED Desk Lamp",
+    "modelNumber": "LD-500",
+    "brand": "Lumino Home",
+    "description": "Dimmable LED desk lamp with adjustable color temperature, Wi-Fi connectivity for smart home integration, and USB charging port.",
+    "primaryFunction": "Illumination and smart control",
+    "customerDetails": {
+      "importer": "Bright Living Solutions",
+      "importerAddress": "456 Light Ave, London, UK",
+      "consignee": "Bright Living Solutions",
+      "notifyParty": "UK Customs Agent Ltd."
+    }
+  },
+  {
+    "productName": "Ergonomic Office Chair",
+    "modelNumber": "ERGO-PRO-XL",
+    "brand": "Comfort Seating",
+    "description": "High-back ergonomic office chair with adjustable lumbar support, headrest, and 4D armrests, suitable for extended use.",
+    "primaryFunction": "Seating for office environment",
+    "customerDetails": {
+      "importer": "Office Dynamics Pty Ltd.",
+      "importerAddress": "789 Business Rd, Sydney, NSW, Australia",
+      "consignee": "Office Dynamics Pty Ltd.",
+      "notifyParty": "Oz Import Services"
+    }
+  },
+  {
+    "productName": "Portable Espresso Maker",
+    "modelNumber": "CM-200",
+    "brand": "BrewGo",
+    "description": "Compact and lightweight portable espresso maker with manual pump operation, ideal for travel and outdoor use.",
+    "primaryFunction": "Brewing espresso coffee",
+    "customerDetails": {
+      "importer": "Coffee Culture Canada",
+      "importerAddress": "101 Bean St, Vancouver, BC, Canada",
+      "consignee": "Coffee Culture Canada",
+      "notifyParty": "Maple Leaf Brokers"
+    }
+  },
+  {
+    "productName": "Yoga Mat (Eco-Friendly)",
+    "modelNumber": "YM-ECO-GEN3",
+    "brand": "ZenFlow",
+    "description": "5mm thick eco-friendly yoga mat made from natural rubber and jute, offering excellent grip and durability.",
+    "primaryFunction": "Exercise and yoga practice surface",
+    "customerDetails": {
+      "importer": "Wellness Gear EU",
+      "importerAddress": "222 Harmony Blvd, Berlin, Germany",
+      "consignee": "Wellness Gear EU",
+      "notifyParty": "Euro Logistics GmbH"
+    }
+  },
+  {
+    "productName": "Wireless Gaming Mouse",
+    "modelNumber": "GM-PRO-X",
+    "brand": "Apex Gaming",
+    "description": "High-performance wireless gaming mouse with adjustable DPI, programmable buttons, and RGB lighting.",
+    "primaryFunction": "Computer input device for gaming",
+    "customerDetails": {
+      "importer": "Elite Gamer Supplies",
+      "importerAddress": "333 Arcade Way, Tokyo, Japan",
+      "consignee": "Elite Gamer Supplies",
+      "notifyParty": "Nippon Freight Forwarders"
+    }
+  },
+  {
+    "productName": "Digital Kitchen Scale",
+    "modelNumber": "KS-SMART-10K",
+    "brand": "PreciseChef",
+    "description": "High-precision digital kitchen scale with touch controls, tare function, and capacity up to 10kg.",
+    "primaryFunction": "Weighing ingredients for cooking",
+    "customerDetails": {
+      "importer": "Culinary Tools Inc.",
+      "importerAddress": "444 Gourmet Place, New York, NY, USA",
+      "consignee": "Culinary Tools Inc.",
+      "notifyParty": "US Import Associates"
+    }
+  },
+  {
+    "productName": "Pet Grooming Kit",
+    "modelNumber": "PGK-DELUXE",
+    "brand": "Pawsome Care",
+    "description": "Comprehensive pet grooming kit including clippers, brushes, scissors, and a comb for dogs and cats.",
+    "primaryFunction": "Pet hair grooming and maintenance",
+    "customerDetails": {
+      "importer": "Happy Pets Distributors",
+      "importerAddress": "555 Wagging Tail Lane, Paris, France",
+      "consignee": "Happy Pets Distributors",
+      "notifyParty": "French Customs Solutions"
+    }
+  },
+  {
+    "productName": "Waterproof Bluetooth Speaker",
+    "modelNumber": "AquaBeat X",
+    "brand": "HydroAudio",
+    "description": "Rugged waterproof Bluetooth speaker with 20W output, 15-hour battery life, and built-in microphone for calls.",
+    "primaryFunction": "Portable audio playback",
+    "customerDetails": {
+      "importer": "Outdoor Gear Ventures",
+      "importerAddress": "666 Adventure Rd, Auckland, New Zealand",
+      "consignee": "Outdoor Gear Ventures",
+      "notifyParty": "NZ Customs Link"
+    }
+  },
+  {
+    "productName": "Reusable Shopping Bags (Set of 5)",
+    "modelNumber": "ECO-BAG-5PK",
+    "brand": "GreenEarth",
+    "description": "Set of five durable, foldable, and reusable shopping bags made from recycled PET material, with reinforced handles.",
+    "primaryFunction": "Carrying groceries and goods",
+    "customerDetails": {
+      "importer": "Eco-Friendly Futures Ltd.",
+      "importerAddress": "777 Sustainable St, Dublin, Ireland",
+      "consignee": "Eco-Friendly Futures Ltd.",
+      "notifyParty": "Irish Trade Facilitators"
+    }
+  }
+]
