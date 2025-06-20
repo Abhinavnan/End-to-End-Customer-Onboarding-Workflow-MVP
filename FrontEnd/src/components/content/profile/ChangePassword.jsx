@@ -14,6 +14,7 @@ const ChangePassword = () => {
     const [passwordChanged, setPasswordChanged] = useState(false);
 
     const samePassword = formData.newPassword === formData.oldPassword;
+    const newPasswordHelperText = samePassword ? 'Password same as old password' : 'Password should be at least 6 characters long';
 
     const handleChange = (event) => {
         const { name, value } = event.target;
@@ -21,6 +22,8 @@ const ChangePassword = () => {
         setInputError((prevError) => ({ ...prevError, [name]: value.length < 6}));
         if(name === 'confirmPassword') 
             setInputError((prevError) => ({ ...prevError, confirmPassword: value !== formData.newPassword}));
+        if(name === 'newPassword') 
+            setInputError((prevError) => ({ ...prevError,  newPassword: value === formData.oldPassword}));
     };
 
     const handleClick = async () => {
@@ -49,8 +52,7 @@ const ChangePassword = () => {
                 helperText={inputError.oldPassword ? 'Invalid password' : ''}  />
             <TextField label="New Password" variant="outlined"  type="password" name="newPassword" value={formData.newPassword}
                 onChange={handleChange} error={inputError.newPassword} 
-                helperText={inputError.newPassword ? 'Password should be at least 6 characters long' : 
-                    samePassword ? 'Password same as old password' : ''}  />
+                helperText={inputError.newPassword ? newPasswordHelperText : ''}  />
             <TextField label="Confirm Password" variant="outlined"  type="password" name="confirmPassword" value={formData.confirmPassword}
                 onChange={handleChange} error={inputError.confirmPassword} 
                 helperText={inputError.confirmPassword ? 'Password does not match' : ''}  />
